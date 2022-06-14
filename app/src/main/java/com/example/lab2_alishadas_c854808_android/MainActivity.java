@@ -90,7 +90,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadTempProducts() {
-        tempProductList.add(new Product(1, "Apple Watch","Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone call",700.0));
+        tempProductList.add(new Product(1, "Apple Watch","Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone call.",700.0));
+        tempProductList.add(new Product(2, "Iphone","Iphone allows users to accomplish a variety of tasks, such as making phone cal.l",1500.0));
+        tempProductList.add(new Product(3, "laptop","Laptop allows users to accomplish a variety of tasks.",2000.0));
+        tempProductList.add(new Product(4, "Camera","Helps the user to capture high pxl photos",3000.0));
+        tempProductList.add(new Product(5, "Bag","Convienet product that helps to carry heavy things.",100.0));
+        tempProductList.add(new Product(6, "Sport Shoes","Best for exercising or recreational Activity.",150.0));
+        tempProductList.add(new Product(7, "Hiking pole","Assist walker with their rhythm.",50.0));
+        tempProductList.add(new Product(8, "Waterproof Jacket","Garment for the rainy season.",80.0));
+        tempProductList.add(new Product(9, "Water bottle","Convinent for carry water and help the person to be hydradeS",20.0));
+        tempProductList.add(new Product(10, "First aid Kit","Medical kit for the emergency situation.",160.0));
 
     }
 
